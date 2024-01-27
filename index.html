@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jano - Website</title>
+    <link rel="shortcut icon" href="img/letter-j.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="font-inter">
+
+    <!-- header start -->
+    <header class="header px-[50px] py-5 shadow-[0px_13px_35px_-12px_rgba(35,35,35,0.10)]"
+        style="box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.10);">
+        <div class="grid grid-cols-2 lg:grid-cols-3 justify-between items-center">
+            <div class="logo">
+                <img src="img/image.png" alt="">
+            </div>
+            <div class="menu hidden lg:flex">
+                <ul class="flex justify-between w-full font-inter font-medium text-lg">
+                    <li>
+                        <a href="#" class="text-primery">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-btn hidden lg:flex flex justify-end items-center">
+                <div class="user w-12 h-12 rounded-full border-2 border-border me-4 flex justify-center items-center">
+                    <i class="fa-regular text fa-user text-primery"></i>
+                </div>
+                <a href="#">
+                    <div class="btn px-[35px] py-[13px] rounded-full text-base font-medium text-white bg-primery">
+                        Contact us
+                    </div>
+                </a>
+            </div>
+            <div class="toggal flex justify-end lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- banner start  -->
+    <section
+        class="banner relative z-10 flex justify-center py-[100px] after:content-[''] after:absolute after:bg-[url('/img/banner2.png')] after:bottom-0 after:right-0 lg:after:w-[366px] lg:after:h-[488px] after:w-[200px] after:h-[300px] after:bg-cover after:bg-no-repeat after:z-[-3]
+    before:content-[''] before:absolute before:bg-[url('/img/banner1.png')] before:bottom-0 before:left-0 lg:before:w-[366px] lg:before:h-[488px] before:w-[200px] before:h-[300px] before:bg-cover before:bg-no-repeat before:z-[-3]">
+        <div class="container mx-auto">
+            <div class="flex justify-center">
+                <div class="banner-content lg:w-[60%] text-center">
+                    <h1 class="text-[60px] w-100 lg:text-[90px] text-normal leading-tight">Everything for your <span
+                            class="text-primery">Home </span> & Future.</h1>
+                    <p class="text-[18px] lg:text-[24px] m-5">Instant everything. Incredible prices. Big heart.</p>
+                    <form>
+                        <input type="text"
+                            class="bg-bg-gray outline-none placeholder:text-black w-[285px] rounded-l-[7px] h-[60px] ps-3 border-2 border-border2"
+                            placeholder="Select insurance type...">
+                        <input type="text"
+                            class="bg-bg-gray outline-none my-[10px] lg:my-[0]  placeholder:text-black lg:ms-[-7px] w-[285px] lg:w-[180px] h-[60px] ps-3 border-2 border-border2"
+                            placeholder="Your Zip code">
+                        <button type="submit"
+                            class=" block lg:inline mx-auto outline-none bg-primery text-bold w-[110px] h-[60px]  lg:ms-[-7px] py-[18px] px-[27px] text-white rounded-r-[7px]">Search</button>
+                    </form>
+                    <h4 class="mt-[30px] lg:pt-[130px] text-[16px] text-primery"><i class="fa-solid fa-check me-3"></i>An UK insurer
+                        approved by the UICO.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- card start  -->
+    <section class="py-[100px]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+                <div class="py-[12px] px-[24px] lg:py-[0]">
+                    <div class="services bg-[#FFFEE7] p-[30px] rounded-[10px]">
+                        <h2 class="text-[28px] font-bold">Regulated by
+                            <br>WICO.
+                        </h2>
+                        <p class="text-[18px] pt-3 text-[rgba(0, 0, 0, 0.50)]">100% Reliable</p>
+                        <div class="flex justify-end">
+                            <img src="img/icon_100.svg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="py-[12px] px-[24px] lg:py-[0]">
+                    <div class="services bg-[#FBF1FF] p-[30px] rounded-[10px]">
+                        <h2 class="text-[28px] font-bold">Get Instant support
+                            <br>all day.
+                        </h2>
+                        <p class="text-[18px] pt-3 text-[rgba(0, 0, 0, 0.50)]">Claim Support</p>
+                        <div class="flex justify-end">
+                            <img src="img/icon_101.svg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="py-[12px] px-[24px] lg:py-[0]">
+                    <div class="services bg-[#EEFBFA] p-[30px] rounded-[10px]">
+                        <h2 class="text-[28px] font-bold">Unbiased advice
+                            <br>from expert.
+                        </h2>
+                        <p class="text-[18px] pt-3 text-[rgba(0, 0, 0, 0.50)]">Consultation</p>
+                        <div class="flex justify-end">
+                            <img src="img/icon_102.svg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card end -->
+
+    <!-- about star  -->
+    <section class="pb-[100px]">
+        <div class="container mx-auto">
+            <div class="title text-center">
+                <h1 class="text-[38px] lg:text-[62px] font-semibold">Top Rated Insurance Agency</h1>
+                <p class="text-[18px] lg:text-[24px] font-semibold text-[rgba(0,0,0,0.5)] py-3">“I couldn’t have asked for a better
+                    experience with Jano!”</p>
+                <span class="text-primery">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="text-[20px] font-semibold ps-3">4.8</span>
+                <span class="text-[20px] font-semibold text-[rgba(0,0,0,0.3)] ">(30k Reviews)</span>
+            </div>
+        </div>
+    </section>
+    <section class="pt-[100px] bg-[#F6F9FB]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="about-img relative bg-[url('img/group.png')] bg-no-repeat bg-center">
+                    <img src="img/man.png" class="lg:absolute bottom-0 w-[100%] lg:w-[70%] left-[50%] lg:translate-x-[-50%]" alt="">
+                    <img src="img/div.card-style.png" class="z-10 absolute left-[0] w-[70%] lg:left-[50px] top-[170px]" alt="">
+                    <img src="img/div.card-style (1).png" class="z-10 absolute right-[-50px] top-[30px]" alt="">
+                    <img src="img/div.card-style (2).png" class="z-10 absolute bottom-[-130px] lg:bottom-[-150px] right-0" alt="">
+                </div>
+                <div class="about-content pt-[50px] lg:pt-[0] ps-[20px] lg:ps-[120px] pb-[100px] xl:pe-[130px]">
+                    <img src="img/icon_103.svg.png" alt="">
+                    <h2 class="text-[30px] lg:text-[42px] font-normal py-5">The team signed <br> <span
+                            class="text-primery">~$7,000,000</span> in new business in July. 
+                        Accelerator has been a <br>
+                        large part of that.</h2>
+                    <p class=" text-[20px] font-semibold"><i class="fa-solid fa-minus pe-2"></i>Jessica Woodbeck</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- service start  -->
+    <section class="pb-[100px] pt-[150px]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="title text-center md:text-start">
+                    <h1 class="text-[35px] lg:text-[50px] leading-tight font-medium">Discover all our <br>Services.</h1>
+                </div>
+                <div class="flex justify-center mt-[20px] md:mt-[0] md:justify-end items-center">
+                    <div class="btn">
+                        <a href="#"
+                            class="px-[35px] py-[13px] inline-block rounded-lg text-base font-medium text-white bg-primery">
+                            View all Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4">
+                <div class="px-[12px]">
+                    <div  class="service-content relative text-center overflow-hidden py-[75px] border-2 border-border rounded-[10px] my-[24px] lg:my-[50px]">
+                            <img src="img/icon_104.svg.png" class="block mx-auto" alt="">
+                        <p class="text-[#ADADAD] text-[20px] pt-[24px]">I want</p>
+                        <h2 class="text-[24px] font-medium">Home Loan</h2>
+                            <a href="#">
+                                <div class="box absolute right-0 bottom-0 ps-[18px] pe-[7px] pt-[18px] pb-[7px] text-center bg-[#F7F7F7] rounded-br-lg  rounded-tl-full">
+                                    <i class="fa-solid fa-arrow-right-long text-[20px]"></i>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                <div class="px-[12px]">
+                    <div  class="service-content relative text-center overflow-hidden  py-[75px] border-2 border-border rounded-[10px] my-[24px] lg:my-[50px]">
+                            <img src="img/icon_105.svg.png" class="block mx-auto" alt="">
+                        <p class="text-[#ADADAD] text-[20px] pt-[24px]">I want</p>
+                        <h2 class="text-[24px] font-medium">Travel Insurance</h2>
+                            <a href="#">
+                                <div class="box absolute right-0 bottom-0 ps-[18px] pe-[7px] pt-[18px] pb-[7px] text-center bg-[#F7F7F7] rounded-br-lg  rounded-tl-full">
+                                    <i class="fa-solid fa-arrow-right-long text-[20px]"></i>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                <div class="px-[12px]">
+                    <div  class="service-content relative text-center overflow-hidden  py-[75px] border-2 border-border rounded-[10px] my-[24px] lg:my-[50px]">
+                            <img src="img/icon_106.svg.png" class="block mx-auto" alt="">
+                        <p class="text-[#ADADAD] text-[20px] pt-[24px]">I want</p>
+                        <h2 class="text-[24px] font-medium">Insure the Car</h2>
+                            <a href="#">
+                                <div class="box absolute right-0 bottom-0 ps-[18px] pe-[7px] pt-[18px] pb-[7px] text-center bg-[#F7F7F7] rounded-br-lg  rounded-tl-full">
+                                    <i class="fa-solid fa-arrow-right-long text-[20px]"></i>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                <div class="px-[12px]">
+                    <div  class="service-content relative text-center overflow-hidden  py-[75px] border-2 border-border rounded-[10px] my-[24px] lg:my-[50px]">
+                            <img src="img/icon_107.svg.png" class="block mx-auto" alt="">
+                        <p class="text-[#ADADAD] text-[20px] pt-[24px]">I want</p>
+                        <h2 class="text-[24px] font-medium">Health Insurance</h2>
+                            <a href="#">
+                                <div class="box absolute right-0 bottom-0 ps-[18px] pe-[7px] pt-[18px] pb-[7px] text-center bg-[#F7F7F7] rounded-br-lg  rounded-tl-full">
+                                    <i class="fa-solid fa-arrow-right-long text-[20px]"></i>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service end -->
+
+    <!-- Choose start  -->
+    <section class="py-[100px]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="choose-img">
+                    <img src="img/div.col-xxl-5.png" alt="">
+                </div>
+                <div class="choose-content px-[25px] lg:px-[0] pt-[30px] lg:pt[0]">
+                    <span class="text-[rgba(0,0,0,0.30)] text-[16px] uppercase font-semibold">Why Choose Us</span>
+                    <h1 class="text-[35px] lg:text-[58px] font-semibold leading-tight">What makes us the <br> best.</h1>
+                    <div class="box mt-[40px] flex px-[25px] py-[22px] rounded-[10px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.03);]">
+                        <img src="img/icon_108.svg.svg" alt="">
+                            <h2 class="text-[22px] font-semibold ps-[16px]">Lowest Price.</h2>
+                    </div>
+                    <div class="box mt-[20px] flex px-[25px] py-[22px] rounded-[10px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.03);]">
+                        <div class="img">
+                            <img src="img/icon_109.svg.svg" alt="">
+                        </div>
+                        <div class="content ps-[16px]">
+                            <h2 class="text-[22px] font-semibold pb-[13px]">Fast Process & Loan</h2>
+                            <p class="text-[18px] text-[#212529]">Practice what you learned on realistic lorem quis <br> test questions testing.</p>
+                        </div>
+                    </div>
+                    <div class="box mt-[20px] flex px-[25px] py-[22px] rounded-[10px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.03);]">
+                        <img src="img/icon_110.svg.svg" alt="">
+                            <h2 class="text-[22px] font-semibold ps-[16px]">Guaranteed Return & Claim</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choose end -->
+
+    <!-- review start  -->
+    <section class="review py-[100px] bg-[#F6F9FB]">
+        <h1 class="text-[35px] font-semibold lg:text-[58px] text-center pb-[50px]">Client Feedback</h1>
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+                <div class="px-[25px]">
+                    <div class="review-content w-full relative shadow-[0px_30px_60px_0px rgba(19,45,73,0.05);] mb-[30px] lg:mb-[0] py-[50px] px-[70px] bg-white  rounded-[10px]">
+                        <h2 class="text-[32px] font-semibold">Very Solid!!</h2>
+                        <img src="img/List.png" class="absolute top-[80px] z-10" alt="">
+                        <img src="img/icon_112.svg.png" class="absolute right-[50px] top-[60px]" alt="">
+                        <p class="text-[26px] font-normal leading-tight py-[50px]">They not only understand what
+                            I say but read between the
+                            lines and also give me ideas of
+                            my own.</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-[20px] font-semibold">Rashed Kabir,
+                            <span class="text-[20px] font-normal text-[rgba(0,0,0,0.5)] ps-2">Claifornia</span></p>
+                            <span><img src="img/review.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[25px]">
+                    <div class="review-content relative shadow-[0px_30px_60px_0px rgba(19,45,73,0.05);] mb-[30px] lg:mb-[0] py-[50px] px-[70px] bg-white  rounded-[10px]">
+                        <h2 class="text-[32px] font-semibold">Very Solid!!</h2>
+                        <img src="img/List.png" class="absolute top-[80px] z-10" alt="">
+                        <img src="img/icon_112.svg.png" class="absolute right-[50px] top-[60px]" alt="">
+                        <p class="text-[26px] font-normal leading-tight py-[50px]">They not only understand what
+                            I say but read between the
+                            lines and also give me ideas of
+                            my own.</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-[20px] font-semibold">Rashed Kabir,
+                            <span class="text-[20px] font-normal text-[rgba(0,0,0,0.5)] ps-2">Claifornia</span></p>
+                            <span><img src="img/review2.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[25px]">
+                    <div class="review-content relative shadow-[0px_30px_60px_0px rgba(19,45,73,0.05);] mb-[30px] lg:mb-[0] py-[50px] px-[70px] bg-white  rounded-[10px]">
+                        <h2 class="text-[32px] font-semibold">Very Solid!!</h2>
+                        <img src="img/List.png" class="absolute top-[80px] z-10" alt="">
+                        <img src="img/icon_112.svg.png" class="absolute right-[50px] top-[60px]" alt="">
+                        <p class="text-[26px] font-normal leading-tight py-[50px]">They not only understand what
+                            I say but read between the
+                            lines and also give me ideas of
+                            my own.</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-[20px] font-semibold">Rashed Kabir,
+                            <span class="text-[20px] font-normal text-[rgba(0,0,0,0.5)] ps-2">Claifornia</span></p>
+                            <span><img src="img/review.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review end -->
+
+    <!-- app start  -->
+    <section class="py-[100px]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="app-content px-[25px]">
+                    <span class="text-[rgba(0,0,0,0.30)] text-[16px] uppercase font-semibold">MOBILE APP</span>
+                    <h1 class="text-[35px] lg:text-[58px] font-semibold leading-tight">Download our Jano <br> Application.</h1>
+                    <p class="text-[18px] lg:text-[20px] text-[#48494E] py-[40px]">Get control of all your insurance needs anywhere, anytime</p>
+                    <ul class="pb-[50px]">
+                        <li class="text-[18px] font-normal lg:text-[24px] pb-[10px]"><i class="fa-solid fa-check me-3 text-primery"></i>Compare different insurance Item</li>
+                        <li class="text-[18px] font-normal lg:text-[24px] pb-[10px]"><i class="fa-solid fa-check me-3 text-primery"></i>Buy, store and share all your policies online</li>
+                        <li class="text-[18px] font-normal lg:text-[24px] pb-[10px]"><i class="fa-solid fa-check me-3 text-primery"></i>Email & Live chat.</li>
+                    </ul>
+                    <img src="img/google.png" class="inline pe-[10px]" alt="">
+                    <img src="img/apple.png" class="inline" alt="">
+                </div>
+                <div class="app-img mt-[80px] lg:mt-[0]">
+                    <img src="img/div.col-lg-6.png" class="w-[648px] h-[600px]" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- app end -->
+
+    <!-- from start  -->
+    <section class="py-[100px] bg-[#F6F9FB]"> 
+        <div class="container mx-auto bg-white">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="form-details order-last lg:order-first text-center border-e-2 border-border p-[50px]">
+                    <form>
+                        <input type="text" placeholder="Your name*" class="border-[rgba(222, 222, 222, 0.80);] border-2 px-[19px] py-[22px] w-full rounded-[5px] mb-[10px]">
+                        <input type="text" placeholder="Your name*" class="border-[rgba(222, 222, 222, 0.80);] border-2 px-[19px] py-[22px] w-full rounded-[5px] mb-[10px]">
+                        <textarea name="text" id="" placeholder="Email*" cols="30" rows="4" class="border-[rgba(222, 222, 222, 0.80);] border-2 px-[19px] py-[22px] w-full rounded-[5px] mb-[10px]"></textarea>
+                        <button type="submit" class="mb-[20px] py-[13px] inline-block rounded-lg text-base font-medium text-white bg-primery w-full">
+                            SEND MESSAGE
+                        </button>
+                    </form>
+                    <span class="text-[rgba(0,0,0,0.50)] font-semibold text-[16px]">Been here before?</span>
+                    <span class="font-medium text-[16px]">Check your query</span>
+                </div>
+                <div class="form-content p-[50px]   ">
+                    <img src="img/icon_114.svg.png" alt="">
+                    <h1 class="text-[35px] lg:text-[58px] leading-tight font-semibold py-[30px]">Let’s talk with <br> expereince <br> advisors.</h1>
+                    <p class="text-[18px] lg:text-[20px]">eiusmod tempor incididunt. Ut enim mim veniam, <br> quis nostrud elit lorem dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- from end -->
+
+    <!-- blog start  -->
+    <section class="pb-[100px] pt-[150px] ">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="title text-center md:text-start">
+                    <h1 class="text-[50px] leading-tight font-medium">Our Blog</h1>
+                </div>
+                <div class="flex justify-center mt-[20px] md:mt-[0] md:justify-end items-center">
+                    <div class="btn">
+                        <a href="#"class="px-[35px] py-[13px] inline-block rounded-lg text-base font-medium text-white bg-primery">
+                            Go to Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 flex justify-between">
+                <div class="blog-content px-[24px] my-[50px]">
+                    <img src="img/blog1.png" class="w-full" alt="">
+                    <span class="text-[14px] font-medium text-[rgba(0,0,0,0.5)] pt-[40px] block pb-2">23 APR, 2022</span>
+                    <h3 class="text-[26px] font-semibold pb-[30px]">A Discount Cartridge dsu is <br> Better Ever.</h3>
+                    <div class="btn">
+                        <a href="#"class="px-[35px] py-[13px] inline-block rounded-full text-base font-medium text-primery border-primery border-2">
+                            Read More</a>
+                    </div>
+                </div>
+                <div class="blog-content px-[24px] my-[50px]">
+                    <img src="img/blog2.png" class="w-full" alt="">
+                    <span class="text-[14px] font-medium text-[rgba(0,0,0,0.5)] pt-[40px] block pb-2">14 MARCH, 2022</span>
+                    <h3 class="text-[26px] font-semibold pb-[30px]">Truck Side Advertising Isn It <br> Time for action.</h3>
+                    <div class="btn">
+                        <a href="#"class="px-[35px] py-[13px] inline-block rounded-full text-base font-medium text-primery border-primery border-2">
+                            Read More</a>
+                    </div>
+                </div>
+                <div class="blog-content px-[24px] my-[50px]">
+                    <img src="img/blog-3.png" class="w-full" alt="">
+                    <span class="text-[14px] font-medium text-[rgba(0,0,0,0.5)] pt-[40px] block pb-2">27 FAB, 2022</span>
+                    <h3 class="text-[26px] font-semibold pb-[30px]">A Discount Cartridge dsu is <br> Better Ever.</h3>
+                    <div class="btn">
+                        <a href="#"class="px-[35px] py-[13px] inline-block rounded-full text-base font-medium text-primery border-primery border-2">
+                            Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog end -->
+
+    <!-- footer start  -->
+    <section class="footer bg-[#1E1E1E] py-[110px] relative after:content-[''] after:absolute after:bg-[url('/img/ils_14.png.png')] after:bottom-0 after:left-0 after:w-[295px] after:h-[361px] after:bg-cover after:bg-no-repeat after:hidden md:after:flex
+    before:content-[''] before:absolute before:bg-[url('/img/ils_13.png.png')] before:bottom-0 before:right-0 before:w-[321px] before:h-[419px] before:bg-cover before:bg-no-repeat before:hidden md:before:flex">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="footer-content z-10 ps-[25px] md:ps-[0]">
+                    <img src="img/logo2.png" alt="">
+                    <h4 class="text-white text-[18px] pt-[24px] pb-[50px]">Best Insurance Company.</h4>
+                    <h4 class="text-[rgba(255,255,255,0.5)] text-[15px] ">© 2023 - 2024 jano inc.</h4>
+                </div>
+                <div class="footer-content text-white ps-[25px] z-10 md:ps-[0]">
+                    <h1 class="text-[24px] font-normal pb-[5px]">Links</h1>
+                    <ul class="text-[17px] font-normal text-[rgba(255,255,255,0.5)]">
+                        <li class="pt-[15px]"><a href="#">Home</a></li>
+                        <li class="pt-[10px]"><a href="#">Pricing</a></li>
+                        <li class="pt-[10px]"><a href="#">About us</a></li>
+                        <li class="pt-[10px]"><a href="#">Careers</a></li>
+                        <li class="pt-[10px]"><a href="#">Features</a></li>
+                        <li class="pt-[10px]"><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content text-white ps-[25px] z-10 md:ps-[0] pt-[25px] lg:pt-[0]">
+                    <h1 class="text-[24px] font-normal">Services</h1>
+                    <ul class="text-[17px] font-normal text-[rgba(255,255,255,0.5)]">
+                        <li class="pt-[15px]"><a href="#">Health Insurance Plans</a></li>
+                        <li class="pt-[10px]"><a href="#">Car Insurance</a></li>
+                        <li class="pt-[10px]"><a href="#">Investment</a></li>
+                        <li class="pt-[10px]"><a href="#">Mediclaim Policy</a></li>
+                        <li class="pt-[10px]"><a href="#">Others</a></li>
+                        <li class="pt-[10px]"><a href="#">Health Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content text-white z-10 ps-[25px] md:ps-[0] pt-[25px] lg:pt-[0]">
+                    <h1 class="text-[24px] font-normal">Address</h1>
+                        <h4 class="text-[17px] font-normal text-[rgba(255,255,255,0.5)] pt-[15px] pb-[40px]">2190 Zinai terrace, Lake view <br> house state, 10 no road.</h4>
+                        <span class="inline-block pe-2"><a href="#"><i class="fa-brands fa-facebook-f w-[40px] h-[40px] bg-[rgba(255,255,255,0.10)] flex justify-center items-center rounded-full"></i></a></span>
+                        <span class="inline-block pe-2"><a href="#"><i class="fa-brands fa-twitter w-[40px] h-[40px] bg-[rgba(255,255,255,0.10)] flex justify-center items-center rounded-full "></i></a></span>
+                        <span class="inline-block"><a href="#"><i class="fa-brands fa-linkedin-in w-[40px] h-[40px] bg-[rgba(255,255,255,0.10)] flex justify-center items-center rounded-full "></i></a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+
+    <script src="js/tailwind.js"></script>
+    <script src="js/tailwind.config.js"></script>
+</body>
+
+</html>
